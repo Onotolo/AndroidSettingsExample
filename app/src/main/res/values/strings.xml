@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidSettingsExample</string>
+    <string name="set_is_image_shown">Show image</string>
+    <string name="set_image_shrink">Image shrink value</string>
+    <string name="set_image_shrink_descr">This setting determines how much is the image shrunk</string>
+</resources>
