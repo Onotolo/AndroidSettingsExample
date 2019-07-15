@@ -39,10 +39,10 @@ class MainActivity : AppCompatActivity() {
     private fun handleImageVisibility() {
 
         val isImageVisible = IsImageShown[this]
-        if (isImageVisible) {
-            cat_view?.visibility = View.VISIBLE
-        } else {
-            cat_view?.visibility = View.INVISIBLE
+
+        cat_view?.visibility = when(isImageVisible) {
+            true -> View.VISIBLE
+            false -> View.INVISIBLE
         }
 
         setting_switch.isChecked = isImageVisible
